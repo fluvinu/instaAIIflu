@@ -2,7 +2,7 @@
 exports.handler = async (event, context) => {
   if (event.httpMethod === 'GET') {
     const params = event.queryStringParameters;
-    const VERIFY_TOKEN = 'YOUR_VERIFY_TOKEN';
+    const VERIFY_TOKEN = 'IGQWRPSExmQkpjQ0ViS0VpUU9zU3phekhxM3JrUE14MnpPSUR5cU12MDBQc2wtWnhEREFLZAUhqVzV3SEhMT0tBMEF2akZAzcHk3T0lJbEZAWM3VMa3hybHVoMGkxSm5yek0zM3RLWjQzMkxoZAXpsdlZAJYlNLS2N0bkEZD';
 
     if (params['hub.verify_token'] === VERIFY_TOKEN) {
       return {

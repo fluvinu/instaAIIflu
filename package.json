@@ -1,0 +1,12 @@
+{
+  "name": "instagram-webhook",
+  "version": "1.0.0",
+  "description": "Instagram webhook with Netlify Functions",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build script defined'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
